@@ -14,7 +14,7 @@ public class MyTest01 {
 //		}
 //		return value;
 //	}
-	// n번 까지 출력하는 메소드
+	// n번 까지 출력하는 코드
 
 //	void test1 (int[] arData) {
 //		for (int i = 0; i < arData.length; i++) {
@@ -46,34 +46,39 @@ public class MyTest01 {
 //		}
 
 //		정수2개를 입력받고 , 차수도 2개 제곱을 출력
-	int[] square(int num1,int num2, int degree) {
-		int[] result = new int[2];
-		int temp1 = 1;
-		int temp2 = 2;
-		
-		for (int i = 0; i < degree; i++) {
-			
-			temp1 *= num1;
-			temp2 *= num2;
-			
-			result[0] = temp1;
-			result[1] = temp2;
-		}
-			
-			return result;
+//	int[] square(int num1,int num2, int degree) {
+//		int[] result = new int[2];
+//		int temp1 = 1;
+//		int temp2 = 2;
+//		
+//		for (int i = 0; i < degree; i++) {
+//			
+//			temp1 *= num1;
+//			temp2 *= num2;
+//			
+//			result[0] = temp1;
+//			result[1] = temp2;
+//		}
+//			
+//			return result;
+//	}
+//			
+	
+	void test1 (int[] arData) {
+		int result = 1;
+		arData[2] = result;
 	}
-			
 		
 
 //		 
 	public static void main(String[] args) {
 		MyTest01 m = new MyTest01();
 		
-		int[] result = null;
+//		int[] result = null;
 		
-		result = m.square(3, 3, 3);
 		
-		System.out.println(result[0]);
+		
+		
 		
 				
 //		System.out.println();

@@ -88,6 +88,8 @@ public class MethodTask {
       result[0] = arData[0];
       result[1] = arData[0];
       
+//      m.getMaxAndMin({})
+      
       for (int i = 0; i < arData.length; i++) {
          if(result[0] < arData[i]) {
             result[0] = arData[i];
