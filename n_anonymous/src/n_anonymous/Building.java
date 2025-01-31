@@ -5,7 +5,7 @@ public class Building {
       Nike gangnam = new Nike();
       Nike jamsil = new Nike();
       
-      jamsil.register(new FormAdapter() {
+      jamsil.register(new FormAdapter () {
          
          @Override
          public String[] getMenu() {

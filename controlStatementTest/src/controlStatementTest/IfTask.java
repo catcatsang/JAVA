@@ -16,26 +16,26 @@ public class IfTask {
       String resultMessage = null;
 
       boolean condition1 = false, condition2 = false, condition3 = false, condition4 = false;
-
+      
       System.out.println(title);
       System.out.println(menu);
 
       choice = sc.nextInt();
 
-      condition1 = choice == 1;
-      condition2 = choice == 2;
-      condition3 = choice == 3;
-      condition4 = choice == 4;
+      condition1 = choice == 1;	// choice 에서 입력한 값이 int 1과 같을때 condition1 에 저장,
+      condition2 = choice == 2;	// choice 에서 입력한 값이 int 2과 같을때 condition2 에 저장,
+      condition3 = choice == 3;	// choice 에서 입력한 값이 int 3과 같을때 condition3 에 저장,
+      condition4 = choice == 4; // choice 에서 입력한 값이 int 4과 같을때 condition4 에 저장,
 
-      if (condition1) {
+      if (condition1) {		// choice 값이 1일때 
          resultMessage = redMessage;
-      } else if (condition2) {
+      } else if (condition2) {	// choice 값이 2일때
          resultMessage = yellowMessage;
-      } else if (condition3) {
+      } else if (condition3) {	// choice 값이 3일때
          resultMessage = blackMessage;
-      } else if (condition4) {
+      } else if (condition4) {	// choice 값이 4일때
          resultMessage = whiteMessage;
-      } else {
+      } else {	// choice 값이 1~4 이외일때
          resultMessage = errorMessage;
       }
       
