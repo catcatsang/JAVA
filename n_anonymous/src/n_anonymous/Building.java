@@ -29,6 +29,7 @@ public class Building {
          @Override
          public String[] getMenu() {
             return new String[] { "운동화", "셔츠", "축구공" };
+            
          }
       });
    }

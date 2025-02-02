@@ -132,7 +132,7 @@ public class UserService {
 
 //    임시 비밀번호로 기존 비밀번호 변경
       for (User user : DBConnecter.users) {
-         if (user.getPhone().equals(콜)) {
+         if (user.getPhone().equals(phone)) {
             user.setPassword(encrpyt(temp));
          }
       }
